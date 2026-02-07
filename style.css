@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.img {
+  margin-bottom: 20px;
+}
+.lampada-quebrada {
+  width: 200px;
+  height: 300px;
+  display: none;
+}
+.lampada-acesa {
+  width: 200px;
+  height: 300px;
+  display: none;
+}
+.lampada-desligada {
+  width: 200px;
+  height: 300px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.on {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #1eb300;
+  cursor: pointer;
+  color: white;
+}
+
+.off {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #dc3545;
+  cursor: pointer;
+  color: white;
+}
+
+.on:hover {
+  background-color: #17a200;
+  box-shadow: 0 0 10px #46df2c;
+}
+.off:hover {
+  background-color: #c82333;
+  box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+}
